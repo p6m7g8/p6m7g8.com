@@ -28,7 +28,7 @@ jobs:
       - name: invalidate
         uses: chetan/invalidate-cloudfront-action@v2
         env:
-          DISTRIBUTION: ${{ CLOUDFRONT_DISTRIBUTION_ID }}
+          DISTRIBUTION: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
           PATHS: '/*'
  
