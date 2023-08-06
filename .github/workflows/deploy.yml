@@ -9,6 +9,11 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
+      - uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-region: ${{ secrets.AWS_REGION }}
+          role-to-assume: arn:aws:iam::346733622331:role/gha-website-p6m7g8-com-role
+          role-session-name: "GHADeployer"
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
@@ -17,11 +22,6 @@ jobs:
       - run: npm install -g yarn
       - run: yarn install --frozen-lockfile
       - run: yarn build
-      - uses: aws-actions/configure-aws-credentials@v2
-        with:
-          aws-region: ${{ secrets.AWS_REGION }}
-          role-to-assume: arn:aws:iam::346733622331:role/gha-website-p6m7g8-com-role
-          role-session-name: "GHADeployer"
       - uses: jakejarvis/s3-sync-action@master
         with:
           args: --follow-symlinks --delete
