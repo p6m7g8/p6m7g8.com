@@ -15,5 +15,25 @@ jobs:
       - uses: aws-actions/configure-aws-credentials@v2
         with:
           aws-region: ${{ secrets.AWS_REGION }}
-          role-to-assume: arn:aws:iam::346733622331:role/gha-website-p6m7g8-com-role
-          role-session-name: "GHADeployer"
+          role-to-assume: ${{ secrets.AWS_ROLE }}
+          role-session-name: ${{ secrets.AWS_SESSION_NAME }}
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'yarn'
+      - run: npm install -g yarn
+      - run: yarn install --frozen-lockfile
+      - run: yarn build
+      - uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --follow-symlinks --delete
+        env:
+          AWS_REGION: ${{ secrets.AWS_REGION }} 
+          AWS_S3_BUCKET: ${{ secrets.BUCKET_NAME }}
+          SOURCE_DIR: 'out'      
+      - uses: chetan/invalidate-cloudfront-action@v2
+        env:
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          DISTRIBUTION: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
+          PATHS: '/*'
