@@ -25,13 +25,7 @@ jobs:
       - run: npm install -g yarn
       - run: yarn install --frozen-lockfile
       - run: yarn build
-      - uses: jakejarvis/s3-sync-action@master
-        with:
-          args: --follow-symlinks --delete
-        env:
-          AWS_REGION: ${{ secrets.AWS_REGION }} 
-          AWS_S3_BUCKET: ${{ secrets.BUCKET_NAME }}
-          SOURCE_DIR: 'out'      
+      - run: aws s3 sync out s3://${{ secrets.BUCKET_NAME }} --no-progress --follow-symlinks --delete --region ${{ secrets.AWS_REGION }}
       - uses: chetan/invalidate-cloudfront-action@v2
         env:
           AWS_REGION: ${{ secrets.AWS_REGION }}
