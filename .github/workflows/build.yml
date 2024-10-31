@@ -1,11 +1,11 @@
-name: Deploy
+name: Build
 
 on:
-  push:
-    branches: [ main ]
+  pull_request: {}
+  workflow_dispatch: {}
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     permissions:
       id-token: write
@@ -33,16 +33,3 @@ jobs:
         run: echo "NEXT_TELEMETRY_DISABLED=1" >> "$GITHUB_ENV"
       - name: Run build
         run: pnpm run build
-      - uses: aws-actions/configure-aws-credentials@v4.0.2
-        with:
-          aws-region: ${{ secrets.AWS_REGION }}
-          role-to-assume: ${{ secrets.AWS_ROLE }}
-          role-session-name: ${{ secrets.AWS_SESSION_NAME }}
-      - name: Deploy to S3
-        run: aws s3 sync out s3://${{ secrets.BUCKET_NAME }} --no-progress --follow-symlinks --delete --region ${{ secrets.AWS_REGION }}
-      - name: Invalidate CloudFront cache
-        uses: chetan/invalidate-cloudfront-action@v2.4
-        env:
-          AWS_REGION: ${{ secrets.AWS_REGION }}
-          DISTRIBUTION: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
-          PATHS: '/*'
