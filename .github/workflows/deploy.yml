@@ -20,7 +20,7 @@ jobs:
           echo /opt/hostedtoolcache/node/22.10.0/x64/bin >> $GITHUB_PATH
       - name: Check node
         run: |
-          ls -alFh /opt/hostedtoolcache/node
+          ls -alFh /opt/hostedtoolcache/node/
           echo $PATH
           which node
           which npm
