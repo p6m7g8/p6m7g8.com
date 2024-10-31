@@ -52,14 +52,14 @@ jobs:
       - name: Assume role using OIDC
         uses: aws-actions/configure-aws-credentials@v4.0.2
         with:
-          aws-region: ${{ secrets.AWS_REGION }}
+          aws-region: ${{ secrets.CDK_DEPLOY_REGION }}
           role-to-assume: ${{ secrets.AWS_ROLE }}
           role-session-name: ${{ secrets.AWS_SESSION_NAME }}
       - name: Deploy to S3
-        run: aws s3 sync out s3://${{ secrets.BUCKET_NAME }} --no-progress --follow-symlinks --delete --region ${{ secrets.AWS_REGION }}
+        run: aws s3 sync out s3://${{ secrets.BUCKET_NAME }} --no-progress --follow-symlinks --delete --region ${{ secrets.CDK_DEPLOY_REGION }}
       - name: Invalidate CloudFront cache
         uses: chetan/invalidate-cloudfront-action@v2.4
         env:
-          AWS_REGION: ${{ secrets.AWS_REGION }}
+          AWS_REGION: ${{ secrets.CDK_DEPLOY_REGION }}
           DISTRIBUTION: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
           PATHS: '/*'
