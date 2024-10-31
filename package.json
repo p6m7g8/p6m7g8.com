@@ -26,8 +26,8 @@
     "dev": "pnpm run lint && pnpm run test && NEXT_TURBOPACK_TRACING=1 next dev --turbo",
     "build": "pnpm run lint && pnpm run test && next build -d",
     "start": "pnpm run build && pnpm serve out",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint": "pnpm eslint .",
+    "lint:fix": "pnpm eslint . --fix",
     "test": "node --trace-deprecation ./node_modules/jest/bin/jest.js  --config jest.config.ts --coverage --passWithNoTests",
     "test:watch": "node --trace-deprecation ./node_modules/jest/bin/jest.js  --config jest.config.ts --watch --coverage",
     "type": "tsc --noEmit"
