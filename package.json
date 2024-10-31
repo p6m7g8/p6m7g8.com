@@ -1,11 +1,11 @@
 {
   "name": "website-p6m7g8-com",
-  "description": "P6M7G8 Inc.",
+  "description": "NextJS, Typescript, React, TailwindCSS Personal Landing Page",
   "repository": {
     "type": "git",
     "url": "https://github.com/p6m7g8/p6m7g8.com"
   },
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "Philip M. Gollucci",
     "email": "pgollucci@p6m7g8.com",
@@ -16,31 +16,68 @@
     "aws",
     "nextjs",
     "p6",
-    "projen",
     "react",
     "tailwindcss"
   ],
+  "engine": {
+    "node": ">=22.7.0"
+  },
   "license": "Apache-2.0",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "pnpm run lint && pnpm run test && NEXT_TURBOPACK_TRACING=1 next dev --turbo",
+    "build": "pnpm run lint && pnpm run test && next build -d",
+    "start": "pnpm run build && pnpm serve out",
+    "lint": "pnpm eslint .",
+    "lint:fix": "pnpm eslint . --fix",
+    "test": "node --trace-deprecation ./node_modules/jest/bin/jest.js  --config jest.config.ts --coverage --passWithNoTests",
+    "test:watch": "node --trace-deprecation ./node_modules/jest/bin/jest.js  --config jest.config.ts --watch --coverage",
+    "type": "tsc --noEmit"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.15",
-    "@heroicons/react": "^2.0.18",
-    "@types/node": "20.3.1",
-    "@types/react": "18.2.14",
-    "@types/react-dom": "18.2.6",
-    "autoprefixer": "10.4.14",
-    "eslint": "8.43.0",
-    "eslint-config-next": "13.4.7",
-    "next": "13.4.7",
-    "postcss": "8.4.27",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "3.3.3",
-    "typescript": "5.1.6"
-  }
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.1.5",
+    "@next/mdx": "^15.0.2",
+    "@tailwindcss/typography": "^0.5.15",
+    "buffer": "^6.0.3",
+    "dotenv": "^16.4.5",
+    "jest-environment-jsdom": "^29.7.0",
+    "next": "15.0.2",
+    "next-safe": "^3.5.0",
+    "react": "19.0.0-rc-1631855f-20241023",
+    "react-dom": "19.0.0-rc-1631855f-20241023",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.8.0",
+    "@next/eslint-plugin-next": "^15.0.2",
+    "@swc/core": "^1.7.40",
+    "@swc/jest": "^0.2.37",
+    "@tailwindcss/forms": "^0.5.9",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.2",
+    "@testing-library/react": "^16.0.1",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.8.4",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.12.2",
+    "@typescript-eslint/parser": "^8.12.2",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.13.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-tailwindcss": "^3.17.5",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "postcss": "^8.4.47",
+    "serve": "^14.2.4",
+    "tailwindcss": "^3.4.14",
+    "ts-jest": "^29.2.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  },
+  "packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228"
 }

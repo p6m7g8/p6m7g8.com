@@ -6,4 +6,4 @@ Only HEAD.
 
 ## Reporting a Vulnerability
 
-Email security@gollucci.com
+Email security@p6m7g8.com

@@ -33,7 +33,8 @@ jobs:
         run: echo "NEXT_TELEMETRY_DISABLED=1" >> "$GITHUB_ENV"
       - name: Run build
         run: pnpm run build
-      - uses: aws-actions/configure-aws-credentials@v4.0.2
+      - name: Assume role using OIDC
+        uses: aws-actions/configure-aws-credentials@v4.0.2
         with:
           aws-region: ${{ secrets.AWS_REGION }}
           role-to-assume: ${{ secrets.AWS_ROLE }}
