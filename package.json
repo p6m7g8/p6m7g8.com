@@ -19,9 +19,6 @@
     "react",
     "tailwindcss"
   ],
-  "engine": {
-    "node": ">=22.7.0"
-  },
   "license": "Apache-2.0",
   "type": "module",
   "main": "index.js",
@@ -34,6 +31,9 @@
     "test": "node --trace-deprecation ./node_modules/jest/bin/jest.js  --config jest.config.ts --coverage --passWithNoTests",
     "test:watch": "node --trace-deprecation ./node_modules/jest/bin/jest.js  --config jest.config.ts --watch --coverage",
     "type": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">= 22.10.0"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
