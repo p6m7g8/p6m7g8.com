@@ -1533,8 +1533,8 @@ packages:
   create-require@1.1.1:
     resolution: {integrity: sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==}
 
-  cross-spawn@7.0.5:
-    resolution: {integrity: sha512-ZVJrKKYunU38/76t0RMOulHOnUcbU9GbpWKAOZ0mhjr7CX6FVrH+4FrAapSOekrgFQ3f/8gwMEuIft0aKq6Hug==}
+  cross-spawn@7.0.6:
+    resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
 
   css.escape@1.5.1:
@@ -1880,8 +1880,8 @@ packages:
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
 
-  eslint-plugin-jsonc@2.18.1:
-    resolution: {integrity: sha512-6qY8zDpxOwPQNcr8eZ+RxwGX6IPHws5/Qef7aBEjER8rB9+UMB6zQWVIVcbP7xzFmEMHAesNFPe/sIlU4c78dg==}
+  eslint-plugin-jsonc@2.18.2:
+    resolution: {integrity: sha512-SDhJiSsWt3nItl/UuIv+ti4g3m4gpGkmnUJS9UWR3TrpyNsIcnJoBRD7Kof6cM4Rk3L0wrmY5Tm3z7ZPjR2uGg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
@@ -4037,7 +4037,7 @@ snapshots:
       eslint-plugin-command: 0.2.6(eslint@9.15.0(jiti@1.21.6))
       eslint-plugin-import-x: 4.4.2(eslint@9.15.0(jiti@1.21.6))(typescript@5.6.3)
       eslint-plugin-jsdoc: 50.5.0(eslint@9.15.0(jiti@1.21.6))
-      eslint-plugin-jsonc: 2.18.1(eslint@9.15.0(jiti@1.21.6))
+      eslint-plugin-jsonc: 2.18.2(eslint@9.15.0(jiti@1.21.6))
       eslint-plugin-n: 17.13.2(eslint@9.15.0(jiti@1.21.6))
       eslint-plugin-no-only-tests: 3.3.0
       eslint-plugin-perfectionist: 3.9.1(eslint@9.15.0(jiti@1.21.6))(typescript@5.6.3)(vue-eslint-parser@9.4.3(eslint@9.15.0(jiti@1.21.6)))
@@ -5597,7 +5597,7 @@ snapshots:
 
   create-require@1.1.1: {}
 
-  cross-spawn@7.0.5:
+  cross-spawn@7.0.6:
     dependencies:
       path-key: 3.1.1
       shebang-command: 2.0.0
@@ -5987,7 +5987,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-jsonc@2.18.1(eslint@9.15.0(jiti@1.21.6)):
+  eslint-plugin-jsonc@2.18.2(eslint@9.15.0(jiti@1.21.6)):
     dependencies:
       '@eslint-community/eslint-utils': 4.4.1(eslint@9.15.0(jiti@1.21.6))
       eslint: 9.15.0(jiti@1.21.6)
@@ -6167,7 +6167,7 @@ snapshots:
       '@types/json-schema': 7.0.15
       ajv: 6.12.6
       chalk: 4.1.2
-      cross-spawn: 7.0.5
+      cross-spawn: 7.0.6
       debug: 4.3.7
       escape-string-regexp: 4.0.0
       eslint-scope: 8.2.0
@@ -6222,7 +6222,7 @@ snapshots:
 
   execa@5.1.1:
     dependencies:
-      cross-spawn: 7.0.5
+      cross-spawn: 7.0.6
       get-stream: 6.0.1
       human-signals: 2.1.0
       is-stream: 2.0.1
@@ -6309,7 +6309,7 @@ snapshots:
 
   foreground-child@3.3.0:
     dependencies:
-      cross-spawn: 7.0.5
+      cross-spawn: 7.0.6
       signal-exit: 4.1.0
 
   form-data@4.0.1:
