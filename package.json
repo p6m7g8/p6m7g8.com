@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
-    "@heroicons/react": "^2.1.5",
+    "@heroicons/react": "^2.2.0",
     "@next/mdx": "^15.0.3",
     "@tailwindcss/typography": "^0.5.15",
     "buffer": "^6.0.3",
@@ -50,7 +50,7 @@
     "sharp": "^0.33.5"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.9.1",
+    "@antfu/eslint-config": "^3.9.2",
     "@next/eslint-plugin-next": "^15.0.3",
     "@swc/core": "^1.9.2",
     "@swc/jest": "^0.2.37",
@@ -62,8 +62,8 @@
     "@types/node": "^22.9.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
-    "@typescript-eslint/eslint-plugin": "^8.14.0",
-    "@typescript-eslint/parser": "^8.14.0",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.15.0",
     "eslint-plugin-import": "^2.31.0",
