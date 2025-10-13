@@ -1,4 +1,4 @@
-import type { Config } from '@jest/types'
+import type { Config } from 'jest'
 import nextJest from 'next/jest.js'
 
 // Adjust the path to your Next.js app's root directory
