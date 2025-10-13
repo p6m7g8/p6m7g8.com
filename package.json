@@ -33,7 +33,7 @@
     "type": "tsc --noEmit"
   },
   "engines": {
-    "node": ">= 22.10.0"
+    "node": ">= 24.9.0"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
