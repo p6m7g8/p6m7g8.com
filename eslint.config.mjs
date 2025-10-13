@@ -53,5 +53,9 @@ export default antfu({
     react: {
       version: 'detect',
     },
+    tailwindcss: {
+      config: 'tailwind.config.ts',
+      removeDuplicates: true,
+    },
   },
 })
