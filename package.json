@@ -50,7 +50,7 @@
     "sharp": "^0.34.4"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.1.0",
+    "@antfu/eslint-config": "^6.2.0",
     "@next/eslint-plugin-next": "^16.0.1",
     "@swc/core": "^1.14.0",
     "@swc/jest": "^0.2.39",
