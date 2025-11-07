@@ -47,7 +47,7 @@
     "next-safe": "^3.5.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "sharp": "^0.34.4"
+    "sharp": "^0.34.5"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.2.0",
