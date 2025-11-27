@@ -38,12 +38,12 @@
   "dependencies": {
     "@headlessui/react": "^2.2.9",
     "@heroicons/react": "^2.2.0",
-    "@next/mdx": "^16.0.4",
+    "@next/mdx": "^16.0.5",
     "@tailwindcss/typography": "^0.5.19",
     "buffer": "^6.0.3",
     "dotenv": "^17.2.3",
     "jest-environment-jsdom": "^30.2.0",
-    "next": "16.0.4",
+    "next": "16.0.5",
     "next-safe": "^3.5.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
@@ -51,7 +51,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.2.0",
-    "@next/eslint-plugin-next": "^16.0.4",
+    "@next/eslint-plugin-next": "^16.0.5",
     "@swc/core": "^1.15.3",
     "@swc/jest": "^0.2.39",
     "@tailwindcss/forms": "^0.5.10",
