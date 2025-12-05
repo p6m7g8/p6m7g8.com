@@ -46,8 +46,8 @@ importers:
         version: 0.34.5
     devDependencies:
       '@antfu/eslint-config':
-        specifier: ^6.4.1
-        version: 6.4.1(@next/eslint-plugin-next@16.0.7)(@vue/compiler-sfc@3.5.12)(eslint-plugin-react-hooks@7.0.1(eslint@9.39.1(jiti@1.21.7)))(eslint@9.39.1(jiti@1.21.7))(typescript@5.9.3)
+        specifier: ^6.4.2
+        version: 6.4.2(@next/eslint-plugin-next@16.0.7)(@vue/compiler-sfc@3.5.12)(eslint-plugin-react-hooks@7.0.1(eslint@9.39.1(jiti@1.21.7)))(eslint@9.39.1(jiti@1.21.7))(typescript@5.9.3)
       '@next/eslint-plugin-next':
         specifier: ^16.0.7
         version: 16.0.7
@@ -139,8 +139,8 @@ packages:
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
     engines: {node: '>=10'}
 
-  '@antfu/eslint-config@6.4.1':
-    resolution: {integrity: sha512-9Fj5AK2VJcmfCGF5yJ3TWbygCM8TcnP/oYgC0hqM62j8BTEd7XCI0IxU+STl0duotI4EjXdcGhHdrOjFoB58qw==}
+  '@antfu/eslint-config@6.4.2':
+    resolution: {integrity: sha512-kj6tZEKXMu07pCBH9TjPyRsQf8oZCwd3I6RFycKz8gPP5/uALictvUJsEA9bXBqZvtqA8SUEwLPLhVRZTSUTWQ==}
     hasBin: true
     peerDependencies:
       '@eslint-react/eslint-plugin': ^2.0.1
@@ -1523,8 +1523,8 @@ packages:
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
 
-  baseline-browser-mapping@2.9.1:
-    resolution: {integrity: sha512-H00ots52fOzvVPIts3HCw+OTZR/OXrFo1hZS1W+lwbDmSt7SMYb1g3zsyNmLQjuwZ1H+T3Pua2EiJc4svJK1pg==}
+  baseline-browser-mapping@2.9.2:
+    resolution: {integrity: sha512-PxSsosKQjI38iXkmb3d0Y32efqyA0uW4s41u4IVBsLlWLhCiYNpH/AfNOVWRqCQBlD8TFJTz6OUWNd4DFJCnmw==}
     hasBin: true
 
   binary-extensions@2.3.0:
@@ -1874,8 +1874,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.5.264:
-    resolution: {integrity: sha512-1tEf0nLgltC3iy9wtlYDlQDc5Rg9lEKVjEmIHJ21rI9OcqkvD45K1oyNIRA4rR1z3LgJ7KeGzEBojVcV6m4qjA==}
+  electron-to-chromium@1.5.266:
+    resolution: {integrity: sha512-kgWEglXvkEfMH7rxP5OSZZwnaDWT7J9EoZCujhnpLbfi0bbNtRkgdX2E3gt0Uer11c61qCYktB3hwkAS325sJg==}
 
   emittery@0.13.1:
     resolution: {integrity: sha512-DeWwawk6r5yR9jFgnDKYt4sLS0LmHJJi3ZOnb5/JdbYwj3nW+FxQnHIjhBKz8YLC7oRNPVM9NQ47I3CVx34eqQ==}
@@ -2082,8 +2082,8 @@ packages:
     peerDependencies:
       eslint: '>=8.45.0'
 
-  eslint-plugin-pnpm@1.4.0:
-    resolution: {integrity: sha512-kp2aO7wzncLPXdWYGv2VEVuEEiZWnVtdavVvO0whbLWHYe4NjKkcEiYBNLBq4/uTOSUFYCouzuhw5cMMAlWIkg==}
+  eslint-plugin-pnpm@1.4.1:
+    resolution: {integrity: sha512-BVb2/cDN8YmgW+lu0bDeCP7a8CzE8CiKfztd46Ide71qbqR5uKD9TaD1W9FSRf36Pa8noEVuH73CAQ6rdgSu0w==}
     peerDependencies:
       eslint: ^9.0.0
 
@@ -3412,8 +3412,8 @@ packages:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
 
-  pnpm-workspace-yaml@1.4.0:
-    resolution: {integrity: sha512-6e4NEk1s9GpuPXqWqbwL7vL2uAHAT06aPcYMk4wnCnD9VGNawPNYVy2Se678u4YpThwjKJjJE+00gsR6eHSpiA==}
+  pnpm-workspace-yaml@1.4.1:
+    resolution: {integrity: sha512-k3TFyIjKf4bJnZ/jnqTfdytcsZfoglnb26kTXP3E8pYYaPyvvqxTd7tL4aJ5Wotc8Oi/+YADYwdkOu3snFS+Hg==}
 
   possible-typed-array-names@1.1.0:
     resolution: {integrity: sha512-/+5VFTchJDoVj3bhoqi6UeymcD00DAwb1nJwamzPvHEszJ4FpF6SNNbUbOS8yI56qHzdV8eK0qEfOSiodkTdxg==}
@@ -4262,7 +4262,7 @@ snapshots:
 
   '@alloc/quick-lru@5.2.0': {}
 
-  '@antfu/eslint-config@6.4.1(@next/eslint-plugin-next@16.0.7)(@vue/compiler-sfc@3.5.12)(eslint-plugin-react-hooks@7.0.1(eslint@9.39.1(jiti@1.21.7)))(eslint@9.39.1(jiti@1.21.7))(typescript@5.9.3)':
+  '@antfu/eslint-config@6.4.2(@next/eslint-plugin-next@16.0.7)(@vue/compiler-sfc@3.5.12)(eslint-plugin-react-hooks@7.0.1(eslint@9.39.1(jiti@1.21.7)))(eslint@9.39.1(jiti@1.21.7))(typescript@5.9.3)':
     dependencies:
       '@antfu/install-pkg': 1.1.0
       '@clack/prompts': 0.11.0
@@ -4286,7 +4286,7 @@ snapshots:
       eslint-plugin-n: 17.23.1(eslint@9.39.1(jiti@1.21.7))(typescript@5.9.3)
       eslint-plugin-no-only-tests: 3.3.0
       eslint-plugin-perfectionist: 4.15.1(eslint@9.39.1(jiti@1.21.7))(typescript@5.9.3)
-      eslint-plugin-pnpm: 1.4.0(eslint@9.39.1(jiti@1.21.7))
+      eslint-plugin-pnpm: 1.4.1(eslint@9.39.1(jiti@1.21.7))
       eslint-plugin-regexp: 2.10.0(eslint@9.39.1(jiti@1.21.7))
       eslint-plugin-toml: 0.12.0(eslint@9.39.1(jiti@1.21.7))
       eslint-plugin-unicorn: 62.0.0(eslint@9.39.1(jiti@1.21.7))
@@ -5798,7 +5798,7 @@ snapshots:
 
   base64-js@1.5.1: {}
 
-  baseline-browser-mapping@2.9.1: {}
+  baseline-browser-mapping@2.9.2: {}
 
   binary-extensions@2.3.0: {}
 
@@ -5830,9 +5830,9 @@ snapshots:
 
   browserslist@4.28.1:
     dependencies:
-      baseline-browser-mapping: 2.9.1
+      baseline-browser-mapping: 2.9.2
       caniuse-lite: 1.0.30001759
-      electron-to-chromium: 1.5.264
+      electron-to-chromium: 1.5.266
       node-releases: 2.0.27
       update-browserslist-db: 1.2.2(browserslist@4.28.1)
 
@@ -6109,7 +6109,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.5.264: {}
+  electron-to-chromium@1.5.266: {}
 
   emittery@0.13.1: {}
 
@@ -6405,13 +6405,13 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-pnpm@1.4.0(eslint@9.39.1(jiti@1.21.7)):
+  eslint-plugin-pnpm@1.4.1(eslint@9.39.1(jiti@1.21.7)):
     dependencies:
       empathic: 2.0.0
       eslint: 9.39.1(jiti@1.21.7)
       jsonc-eslint-parser: 2.4.1
       pathe: 2.0.3
-      pnpm-workspace-yaml: 1.4.0
+      pnpm-workspace-yaml: 1.4.1
       tinyglobby: 0.2.15
       yaml: 2.8.2
       yaml-eslint-parser: 1.3.2
@@ -8167,7 +8167,7 @@ snapshots:
 
   pluralize@8.0.0: {}
 
-  pnpm-workspace-yaml@1.4.0:
+  pnpm-workspace-yaml@1.4.1:
     dependencies:
       yaml: 2.8.2
 
