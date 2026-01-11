@@ -13,7 +13,7 @@ p6m7g8.com Website
 
 ## Summary
 
-- Next v15
+- Next v16
 - Typescript
 - React
 - Tailwind
