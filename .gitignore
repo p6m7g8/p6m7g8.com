@@ -7,3 +7,5 @@ dist/
 logs/
 node_modules/
 out/
+tsconfig.tsbuildinfo
+.claude/
