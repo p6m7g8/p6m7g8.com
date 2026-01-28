@@ -15,8 +15,7 @@
     "types": [
       "node",
       "jest",
-      "next",
-      "tailwindcss"
+      "next"
     ],
     "allowJs": false,
     "strict": true,
@@ -46,7 +45,6 @@
     "next.config.ts",
     "src/**/*.ts",
     "src/**/*.tsx",
-    "tailwind.config.ts",
     "test/**/*.ts",
     "test/**/*.tsx",
     ".next/types/**/*.ts"
