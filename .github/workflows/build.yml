@@ -7,8 +7,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
     steps:
-      - name: NextJS Build
-        uses: p6m7g8-actions/next-build@main
+      - name: Build
+        uses: p6m7g8-actions/p6-build@main
+        with:
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
