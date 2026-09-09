@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@headlessui/react':
         specifier: 2.2.10
-        version: 2.2.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 2.2.10(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       '@heroicons/react':
         specifier: 2.2.0
-        version: 2.2.0(react@19.2.8)
+        version: 2.2.0(react@19.3.0)
       '@next/mdx':
         specifier: 16.3.4
         version: 16.3.4
@@ -28,16 +28,16 @@ importers:
         version: 30.5.1
       next:
         specifier: 16.3.4
-        version: 16.3.4(@babel/core@7.28.5)(@types/node@25.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 16.3.4(@babel/core@7.28.5)(@types/node@25.1.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       next-safe:
         specifier: 3.5.0
-        version: 3.5.0(next@16.3.4(@babel/core@7.28.5)(@types/node@25.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))
+        version: 3.5.0(next@16.3.4(@babel/core@7.28.5)(@types/node@25.1.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))
       react:
-        specifier: 19.2.8
-        version: 19.2.8
+        specifier: 19.3.0
+        version: 19.3.0
       react-dom:
-        specifier: 19.2.8
-        version: 19.2.8(react@19.2.8)
+        specifier: 19.3.0
+        version: 19.3.0(react@19.3.0)
       sharp:
         specifier: 0.35.4
         version: 0.35.4(@types/node@25.1.0)
@@ -65,7 +65,7 @@ importers:
         version: 6.9.1
       '@testing-library/react':
         specifier: 16.3.2
-        version: 16.3.2(@testing-library/dom@10.4.1)(@types/react-dom@19.2.3(@types/react@19.2.10))(@types/react@19.2.10)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 16.3.2(@testing-library/dom@10.4.1)(@types/react-dom@19.2.3(@types/react@19.2.10))(@types/react@19.2.10)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       '@types/jest':
         specifier: 30.0.0
         version: 30.0.0
@@ -3725,10 +3725,10 @@ packages:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
       react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
 
-  react-dom@19.2.8:
-    resolution: {integrity: sha512-rVprimfGBG3DR+Tq0IQG2DT5PxKth1WIGDmj5yPmlzr4YBe7uyE+Du4oVqTDXZSHGGGXRtTJEGSSePyQCMBglQ==}
+  react-dom@19.3.0:
+    resolution: {integrity: sha512-JDk8dgif51OjFoDE70+OT9ICyYr+69HlmihNwp1+Nsfbna3t5sIiCa9ZJktDmQ4/1b/rn26hIAR2uYXDMr5r0Q==}
     peerDependencies:
-      react: ^19.2.8
+      react: ^19.3.0
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -3739,16 +3739,16 @@ packages:
   react-is@18.3.1:
     resolution: {integrity: sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==}
 
-  react-is@19.2.8:
-    resolution: {integrity: sha512-s5un28nYxKJw5gvUHyW5PCC28CvBqLu9r3cWgzHT4Vo/5fqqkFcdRYsGcKf50WMPpjjFZS5d76fn3YCo2njKwQ==}
+  react-is@19.3.0:
+    resolution: {integrity: sha512-UpMYezM4v5/18F28aC66AEsjXIgE02kyEMH6yLdgLXu/UTfa1Ntwck/nNLrbqJsEXW7gPb0coNO9FQse9WTovA==}
 
   react-stately@3.50.0:
     resolution: {integrity: sha512-TnckvpDQGU0672wEaLZqdzvhuSeXWjgW6vijMWxiKOxc8CosQUfPGISdcZyfHqjX3XMjEtRxj4w9HumvX4h4mw==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
 
-  react@19.2.8:
-    resolution: {integrity: sha512-PWaYA1L/q9u2u7xYQi+Y3L3Yfnie7XyLeaJICV1MGD6LprsBxcAqGjYyr0eY3p+QdsA+x/Irkt4Qif8D63+Sbw==}
+  react@19.3.0:
+    resolution: {integrity: sha512-E8LUcbtBWt20bbl2YoHfx4ZDBdxVTfOKtCZn9cDSJ4l6/nuoApcpIBcj47t2wZoVX8g2ZHuMHbiShgCR1T5Sog==}
     engines: {node: '>=0.10.0'}
 
   readdirp@3.6.0:
@@ -3863,8 +3863,8 @@ packages:
     resolution: {integrity: sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA==}
     engines: {node: '>=v12.22.7'}
 
-  scheduler@0.27.0:
-    resolution: {integrity: sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q==}
+  scheduler@0.28.0:
+    resolution: {integrity: sha512-juorfCmIkIw8tT+p5BXSm6PJjQF/ycEYmKyzURCIt/RaZIhL+PulbQ9Yu2z1HdOJDdqDTlxA1+xKBmHXJsczAw==}
 
   scslre@0.3.0:
     resolution: {integrity: sha512-3A6sD0WYP7+QrjbfNA2FN3FsOaGGFoekCVgTyypy53gPxhbkCIjtO6YWgdrfM+n/8sI8JeXZOIxsHjMTNxQ4nQ==}
@@ -4299,8 +4299,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  use-sync-external-store@1.6.0:
-    resolution: {integrity: sha512-Pp6GSwGP/NrPIrxVFAIkOQeyw8lFenOHijQWkUTrDvrF4ALqylP2C/KCkeS9dpUM3KvYRQhna5vt7IL95+ZQ9w==}
+  use-sync-external-store@1.7.0:
+    resolution: {integrity: sha512-6L+EeigHMQhdaIPNIFUKwfWJSwWFQ8gJbJ2DLOs5sDIegTwR9fRxvnM3uciHKjIZhFz+KAv2emhWMRvDmMcY8A==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -4886,35 +4886,35 @@ snapshots:
       '@floating-ui/core': 1.8.0
       '@floating-ui/utils': 0.2.12
 
-  '@floating-ui/react-dom@2.1.9(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
+  '@floating-ui/react-dom@2.1.9(react-dom@19.3.0(react@19.3.0))(react@19.3.0)':
     dependencies:
       '@floating-ui/dom': 1.8.0
-      react: 19.2.8
-      react-dom: 19.2.8(react@19.2.8)
+      react: 19.3.0
+      react-dom: 19.3.0(react@19.3.0)
 
-  '@floating-ui/react@0.26.28(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
+  '@floating-ui/react@0.26.28(react-dom@19.3.0(react@19.3.0))(react@19.3.0)':
     dependencies:
-      '@floating-ui/react-dom': 2.1.9(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      '@floating-ui/react-dom': 2.1.9(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       '@floating-ui/utils': 0.2.12
-      react: 19.2.8
-      react-dom: 19.2.8(react@19.2.8)
+      react: 19.3.0
+      react-dom: 19.3.0(react@19.3.0)
       tabbable: 6.5.0
 
   '@floating-ui/utils@0.2.12': {}
 
-  '@headlessui/react@2.2.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
+  '@headlessui/react@2.2.10(react-dom@19.3.0(react@19.3.0))(react@19.3.0)':
     dependencies:
-      '@floating-ui/react': 0.26.28(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      '@react-aria/focus': 3.22.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      '@react-aria/interactions': 3.28.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      '@tanstack/react-virtual': 3.14.11(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      react: 19.2.8
-      react-dom: 19.2.8(react@19.2.8)
-      use-sync-external-store: 1.6.0(react@19.2.8)
+      '@floating-ui/react': 0.26.28(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      '@react-aria/focus': 3.22.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      '@react-aria/interactions': 3.28.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      '@tanstack/react-virtual': 3.14.11(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      react: 19.3.0
+      react-dom: 19.3.0(react@19.3.0)
+      use-sync-external-store: 1.7.0(react@19.3.0)
 
-  '@heroicons/react@2.2.0(react@19.2.8)':
+  '@heroicons/react@2.2.0(react@19.3.0)':
     dependencies:
-      react: 19.2.8
+      react: 19.3.0
 
   '@humanfs/core@0.19.1': {}
 
@@ -5381,24 +5381,24 @@ snapshots:
 
   '@pkgr/core@0.2.9': {}
 
-  '@react-aria/focus@3.22.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
+  '@react-aria/focus@3.22.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0)':
     dependencies:
       '@swc/helpers': 0.5.23
-      react: 19.2.8
-      react-aria: 3.52.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      react-dom: 19.2.8(react@19.2.8)
+      react: 19.3.0
+      react-aria: 3.52.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      react-dom: 19.3.0(react@19.3.0)
 
-  '@react-aria/interactions@3.28.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
+  '@react-aria/interactions@3.28.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0)':
     dependencies:
-      '@react-types/shared': 3.36.1(react@19.2.8)
+      '@react-types/shared': 3.36.1(react@19.3.0)
       '@swc/helpers': 0.5.23
-      react: 19.2.8
-      react-aria: 3.52.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
-      react-dom: 19.2.8(react@19.2.8)
+      react: 19.3.0
+      react-aria: 3.52.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      react-dom: 19.3.0(react@19.3.0)
 
-  '@react-types/shared@3.36.1(react@19.2.8)':
+  '@react-types/shared@3.36.1(react@19.3.0)':
     dependencies:
-      react: 19.2.8
+      react: 19.3.0
 
   '@rtsao/scc@1.1.0': {}
 
@@ -5563,11 +5563,11 @@ snapshots:
       postcss: 8.5.6
       tailwindcss: 4.1.18
 
-  '@tanstack/react-virtual@3.14.11(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
+  '@tanstack/react-virtual@3.14.11(react-dom@19.3.0(react@19.3.0))(react@19.3.0)':
     dependencies:
       '@tanstack/virtual-core': 3.17.9
-      react: 19.2.8
-      react-dom: 19.2.8(react@19.2.8)
+      react: 19.3.0
+      react-dom: 19.3.0(react@19.3.0)
 
   '@tanstack/virtual-core@3.17.9': {}
 
@@ -5591,12 +5591,12 @@ snapshots:
       picocolors: 1.1.1
       redent: 3.0.0
 
-  '@testing-library/react@16.3.2(@testing-library/dom@10.4.1)(@types/react-dom@19.2.3(@types/react@19.2.10))(@types/react@19.2.10)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
+  '@testing-library/react@16.3.2(@testing-library/dom@10.4.1)(@types/react-dom@19.2.3(@types/react@19.2.10))(@types/react@19.2.10)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)':
     dependencies:
       '@babel/runtime': 7.28.4
       '@testing-library/dom': 10.4.1
-      react: 19.2.8
-      react-dom: 19.2.8(react@19.2.8)
+      react: 19.3.0
+      react-dom: 19.3.0(react@19.3.0)
     optionalDependencies:
       '@types/react': 19.2.10
       '@types/react-dom': 19.2.3(@types/react@19.2.10)
@@ -8373,20 +8373,20 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  next-safe@3.5.0(next@16.3.4(@babel/core@7.28.5)(@types/node@25.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)):
+  next-safe@3.5.0(next@16.3.4(@babel/core@7.28.5)(@types/node@25.1.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)):
     dependencies:
-      next: 16.3.4(@babel/core@7.28.5)(@types/node@25.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      next: 16.3.4(@babel/core@7.28.5)(@types/node@25.1.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
 
-  next@16.3.4(@babel/core@7.28.5)(@types/node@25.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8):
+  next@16.3.4(@babel/core@7.28.5)(@types/node@25.1.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0):
     dependencies:
       '@next/env': 16.3.4
       '@swc/helpers': 0.5.23
       baseline-browser-mapping: 2.11.21
       caniuse-lite: 1.0.30001810
       postcss: 8.5.23
-      react: 19.2.8
-      react-dom: 19.2.8(react@19.2.8)
-      styled-jsx: 5.1.6(@babel/core@7.28.5)(react@19.2.8)
+      react: 19.3.0
+      react-dom: 19.3.0(react@19.3.0)
+      styled-jsx: 5.1.6(@babel/core@7.28.5)(react@19.3.0)
     optionalDependencies:
       '@next/swc-darwin-arm64': 16.3.4
       '@next/swc-darwin-x64': 16.3.4
@@ -8619,7 +8619,7 @@ snapshots:
   pretty-format@30.5.1:
     dependencies:
       '@jest/react-is-18': react-is@18.3.1
-      '@jest/react-is-19': react-is@19.2.8
+      '@jest/react-is-19': react-is@19.3.0
       '@jest/schemas': 30.5.0
       ansi-styles: 5.2.0
 
@@ -8646,24 +8646,24 @@ snapshots:
       minimist: 1.2.8
       strip-json-comments: 2.0.1
 
-  react-aria@3.52.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8):
+  react-aria@3.52.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0):
     dependencies:
       '@internationalized/date': 3.12.4
       '@internationalized/number': 3.6.8
       '@internationalized/string': 3.2.10
-      '@react-types/shared': 3.36.1(react@19.2.8)
+      '@react-types/shared': 3.36.1(react@19.3.0)
       '@swc/helpers': 0.5.23
       aria-hidden: 1.2.6
       clsx: 2.1.1
-      react: 19.2.8
-      react-dom: 19.2.8(react@19.2.8)
-      react-stately: 3.50.0(react@19.2.8)
-      use-sync-external-store: 1.6.0(react@19.2.8)
+      react: 19.3.0
+      react-dom: 19.3.0(react@19.3.0)
+      react-stately: 3.50.0(react@19.3.0)
+      use-sync-external-store: 1.7.0(react@19.3.0)
 
-  react-dom@19.2.8(react@19.2.8):
+  react-dom@19.3.0(react@19.3.0):
     dependencies:
-      react: 19.2.8
-      scheduler: 0.27.0
+      react: 19.3.0
+      scheduler: 0.28.0
 
   react-is@16.13.1: {}
 
@@ -8671,19 +8671,19 @@ snapshots:
 
   react-is@18.3.1: {}
 
-  react-is@19.2.8: {}
+  react-is@19.3.0: {}
 
-  react-stately@3.50.0(react@19.2.8):
+  react-stately@3.50.0(react@19.3.0):
     dependencies:
       '@internationalized/date': 3.12.4
       '@internationalized/number': 3.6.8
       '@internationalized/string': 3.2.10
-      '@react-types/shared': 3.36.1(react@19.2.8)
+      '@react-types/shared': 3.36.1(react@19.3.0)
       '@swc/helpers': 0.5.23
-      react: 19.2.8
-      use-sync-external-store: 1.6.0(react@19.2.8)
+      react: 19.3.0
+      use-sync-external-store: 1.7.0(react@19.3.0)
 
-  react@19.2.8: {}
+  react@19.3.0: {}
 
   readdirp@3.6.0:
     dependencies:
@@ -8805,7 +8805,7 @@ snapshots:
     dependencies:
       xmlchars: 2.2.0
 
-  scheduler@0.27.0: {}
+  scheduler@0.28.0: {}
 
   scslre@0.3.0:
     dependencies:
@@ -9063,10 +9063,10 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  styled-jsx@5.1.6(@babel/core@7.28.5)(react@19.2.8):
+  styled-jsx@5.1.6(@babel/core@7.28.5)(react@19.3.0):
     dependencies:
       client-only: 0.0.1
-      react: 19.2.8
+      react: 19.3.0
     optionalDependencies:
       '@babel/core': 7.28.5
 
@@ -9338,9 +9338,9 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  use-sync-external-store@1.6.0(react@19.2.8):
+  use-sync-external-store@1.7.0(react@19.3.0):
     dependencies:
-      react: 19.2.8
+      react: 19.3.0
 
   util-deprecate@1.0.2: {}
 
